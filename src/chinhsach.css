@@ -1,0 +1,34 @@
+.container{
+    margin: 15px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.big-title{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #002060;
+    margin: auto;
+}
+.small-title{
+    margin: 20px 0px 10px 0px;
+    font-size: large;
+    font-weight: bold;
+}
+.content{
+    margin: 0px;
+}
+
+.content ul li{
+    margin-top: 10px;
+}
+.link{
+    color: #002060;
+    font-style: italic;
+}
+.link:hover{
+    color: red;
+}
+.quest{
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 0px;
+}

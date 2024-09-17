@@ -1,0 +1,51 @@
+/* Sidebar.css */
+.sidebar {
+    width: 200px;
+    height: calc(100vh - 40px);
+    background-color: #001a66;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px; /* Khoảng cách với header */
+    margin-bottom: 40px; /* Khoảng cách với footer */
+  }
+  
+  .sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bolder;
+  }  
+
+  /* .sidebar nav ul li a:hover {
+  color: #e60000; 
+  } */
+
+  .sidebar nav ul li.logout {
+    margin-top: auto;
+  }
+  
+  .sidebar nav ul li.logout a {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar nav ul li.logout img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  

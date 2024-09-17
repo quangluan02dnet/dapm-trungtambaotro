@@ -1,0 +1,16 @@
+
+.add-child-container {
+    display: flex;
+  }
+  
+.add-child-content {
+  flex: 1;
+  padding: 20px;
+}
+  
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+  

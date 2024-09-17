@@ -1,0 +1,34 @@
+.detail-adoption-profile-container {
+    display: flex;
+  }
+  
+.detail-adoption-profile-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+  
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+  
+.ant-upload-list-picture .ant-upload-list-item-thumbnail {
+  width: 100%;
+  height: auto;
+}
+  
+.profile-page-container {
+  display: flex;
+}
+
+.profile-page-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}

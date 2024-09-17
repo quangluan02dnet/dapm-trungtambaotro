@@ -1,0 +1,16 @@
+.add-adoption-profile-container {
+    display: flex;
+  }
+  
+.add-adoption-profile-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+  
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+  

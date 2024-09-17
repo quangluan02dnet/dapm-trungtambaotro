@@ -1,0 +1,24 @@
+/* ProfilePage.css */
+.profile-page-container {
+    display: flex;
+  }
+  
+  .profile-page-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .profile-page-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
